@@ -1,0 +1,31 @@
+.w-100-height{
+    height: 90vh;
+    width: 100%;
+}
+.carousel-item{
+   min-height:300px; 
+
+}
+.carousel-caption{
+  text-align:left !important; 
+  margin-bottom: 200px;
+  z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 40px;   
+}
+.carousel-inner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0,0,0.6);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* Reviews Alanı */
+.p-4{
+    margin-top: 1.5rem !important;
+}
